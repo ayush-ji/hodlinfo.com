@@ -1,0 +1,89 @@
+body, html {
+    background-color: rgb(25, 29, 40);
+}
+
+#navbar {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+#telegram {
+    display: flex;
+    align-items: center;
+}
+
+#logowhole {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#logo1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgb(61, 198, 193);
+    font-size: 40px;
+}
+
+#telegram > button {
+    margin-right: 20px;
+    border-radius: 14px;
+    font-size: 15px;
+    padding-top: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    background-color: rgb(61, 198, 193);
+    display: inline;
+}
+
+#telegram > span {
+    margin-right: 20px;
+}
+
+
+
+#logowhole {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#logo2 {
+    font-size: 25px;
+    color: white;
+}
+
+#logo3 {
+    color: rgb(87, 86, 86);
+}
+
+#logo4 {
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    color : cyan;    
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing:0 8px;
+    border-radius: 20px;
+}
+
+.table-row {
+    margin: 6px;
+    border-radius: 30px;
+    background-color: rgb(46, 50, 65);
+    
+        border: 2px red solid;
+        border-radius: 10px;
+    
+}
+
+.dropdown {
+    background-color: rgb(46, 50, 65);
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
